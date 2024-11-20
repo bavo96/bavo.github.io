@@ -4,8 +4,10 @@ html {
     font-style: normal;
 }
 
-#id-main-background {
+body {
     background-image: url("../assets/images/background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
     margin: 0;
     height: 100vh;
     width: 100vw;
@@ -13,7 +15,7 @@ html {
 
 #title {
     /* Name of user */
-    color: #7C93C3;
+    color: #FFD09B;
     text-align: center;
     font-family: "Edu AU VIC WA NT Pre", cursive;
     font-optical-sizing: auto;
@@ -28,7 +30,7 @@ html {
     /* Introduction */
     font-size: 0.25rem;
     text-align: center;
-    color: #7C93C3;
+    color: #FFF7D1;
     margin: 25;
 }
 
@@ -85,8 +87,12 @@ header>* {
     display: flex;
 }
 
-header>a:hover {
+header>.home {
     background-color: #E1D7B7;
+}
+
+header>a:hover {
+    background-color: white;
 }
 
 footer {

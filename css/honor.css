@@ -1,0 +1,59 @@
+html {
+    font-size: 100px;
+    font-weight: 700;
+    font-style: normal;
+}
+
+body {
+    background-image: url("../assets/images/background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+}
+
+a {
+    /* no underline for all links */
+    text-decoration: none;
+}
+
+header {
+    height: 80px;
+    background-color: #1E2A5E;
+    font-size: 0.2rem;
+
+    /* flex */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: row;
+    /* gap: 10px; */
+}
+
+header>* {
+    height: 30px;
+    border: 3px solid;
+    border-radius: 25px;
+    padding: 8px;
+    margin: 10px;
+    color: #7C93C3;
+
+    /* flex */
+    flex: 1 1 1;
+    /* flex-grow: 1; */
+    /* flex-shrink: 1; */
+    /* flex-basis: 1; */
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+header>.honor {
+    background-color: #E1D7B7;
+}
+
+header>a:hover {
+    background-color: white;
+}
