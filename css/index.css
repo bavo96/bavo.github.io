@@ -17,9 +17,7 @@ img {
 }
 
 /* Set font */
-a,
-h2,
-p {
+* {
     /* no underline for all links */
     text-decoration: none;
     font-family: "Sour Gummy", sans-serif;
@@ -28,6 +26,7 @@ p {
     font-style: normal;
     font-variation-settings:
         "wdth" 100;
+    margin: 0;
 }
 
 /* Title */
@@ -45,7 +44,7 @@ p {
 /* Introduction */
 #intro {
     /* Introduction */
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     text-align: center;
     color: #FFF7D1;
     margin: 25;
@@ -71,7 +70,6 @@ header {
     width: 100vw;
     padding: 0;
     margin: 0;
-    background-color: #1E2A5E;
     font-size: 1rem;
 
     /* flex */
@@ -80,16 +78,16 @@ header {
     justify-content: flex-end;
     align-items: center;
     flex-direction: row;
-    /* gap: 10px; */
 }
 
 header>* {
     height: 30px;
     border: 3px solid;
-    border-radius: 25px;
+    border-radius: 20px;
     padding: 8px;
     margin: 10px;
     color: #7C93C3;
+    background-color: #1E2A5E;
 
     /* flex */
     flex: 1 1 1;
@@ -162,10 +160,10 @@ footer>#pdfresume {
     /* background-color: white; */
     background-size: contain;
     background-position: left;
-    width: 120px;
+    width: 95px;
     height: 50px;
     border: 3px solid #E1D7B7;
-    border-radius: 10%;
+    border-radius: 10px;
     justify-content: flex-end;
     align-items: center;
     margin: 0 10px;
