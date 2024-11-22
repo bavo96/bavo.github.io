@@ -76,7 +76,7 @@ header>a:hover {
     display: grid;
     flex-direction: column;
     padding-top: 20px;
-    grid-template-rows: 0.2fr 0.2fr 1fr;
+    grid-template-rows: 0.2fr auto auto;
     grid-template-columns: 1fr 1fr;
 }
 
@@ -109,7 +109,6 @@ header>a:hover {
     border-radius: 10px;
     width: 40vw;
     height: max-content;
-    /* margin-top: 0; */
 }
 
 .subsubtitle.left {
